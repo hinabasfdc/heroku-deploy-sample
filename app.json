@@ -1,0 +1,6 @@
+{
+  "name": "heroku-deploy-sample",
+  "env": {
+    "YOUR_NAME": "アストロ"
+  }
+}
