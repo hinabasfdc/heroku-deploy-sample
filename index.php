@@ -15,6 +15,9 @@
     border: 1px solid #ddd;
     background-color: #efefef;
   }
+  .centering {
+    text-align: center;
+  }
 </style>
 
   </head>
@@ -29,15 +32,7 @@
       </div>
     </div>
     <div class="slds-global-header__item slds-global-header__item--search">
-      <div class="slds-form-element slds-lookup">
-        <label class="slds-assistive-text" for="global-search-01">Search Salesforce</label>
-        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--left">
-          <svg aria-hidden="true" class="slds-input__icon">
-            <use xlink:href="slds/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
-          </svg>
-          <input id="global-search-01" class="slds-input slds-lookup__search-input" type="search" placeholder="Search Salesforce" />
-        </div>
-      </div>
+      <p class="centering">Heroku Deploy Sample App</p>
     </div>
     <ul class="slds-global-header__item slds-grid slds-grid--vertical-align-center">
       <li class="slds-dropdown-trigger slds-dropdown-trigger--click slds-m-left--x-small">
